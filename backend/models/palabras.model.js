@@ -6,4 +6,4 @@ const Esquemapalabtra = new Schema({
 })
 
 
-export const modelopalabras = new modelo("palabras", Esquemapalabtras)
+export const modelo = new modelo("palabras", Esquemapalabras)

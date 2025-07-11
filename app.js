@@ -1,8 +1,8 @@
 import mongoose from "mongoose";
 import express from "express";
 import dotenv from "dotenv";
-import corse from "cors";
-import { test } from "./backend/contollers/controller.js";
+import corse from "corse";
+import { test } from "./backend/controllers/controller";
 
 dotenv.config
 mongoose.conect(process.env.urlbd)
